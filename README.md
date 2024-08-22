@@ -1,6 +1,7 @@
 # A portable light printed using Rapid Liquid Printing
 
 ## Specs
+
 - 2700K
 - About 400 lumens
 - Dimmable

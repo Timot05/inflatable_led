@@ -11561,6 +11561,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C28323"
+			(at 228.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45bd9bab-d0e7-4f5a-aac2-ca4ce04a0144")
 		)
@@ -11690,6 +11699,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49678"
 			(at 27.94 31.75 0)
 			(effects
 				(font
@@ -12164,6 +12182,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C15195"
+			(at 153.67 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5862c97e-66da-4e7a-a0da-90fbc7296143")
 		)
@@ -12226,6 +12253,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 309.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C28323"
 			(at 309.88 129.54 0)
 			(effects
 				(font
@@ -12583,6 +12619,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C1554"
+			(at 57.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "18902a18-f4b1-486f-8dff-d48aaebcfebb")
 		)
@@ -12653,6 +12698,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 124.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0cdb2b2e-e78f-4a91-b944-3efade15d3d1")
 		)
@@ -12715,6 +12769,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 59.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49678"
 			(at 59.69 31.75 0)
 			(effects
 				(font
@@ -13355,6 +13418,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C1554"
+			(at 86.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ad5f7f9-ffaf-4df3-81cb-8161ca982f5a")
 		)
@@ -13816,6 +13888,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 57.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C11702"
 			(at 57.15 95.25 0)
 			(effects
 				(font
@@ -14308,6 +14389,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25076"
+			(at 256.54 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ee403833-ac8b-4757-970e-4eee8cf77b4f")
 		)
@@ -14436,6 +14526,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 288.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C175720"
 			(at 288.29 52.07 0)
 			(effects
 				(font
@@ -15025,7 +15124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "100K"
 			(at 55.88 288.2899 0)
 			(effects
 				(font
@@ -15053,6 +15152,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 53.34 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" " C25741"
 			(at 53.34 287.02 0)
 			(effects
 				(font
@@ -15123,6 +15231,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 241.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" " C16772"
 			(at 241.3 63.5 0)
 			(effects
 				(font
@@ -15259,6 +15376,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 228.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23733"
 			(at 228.6 48.26 0)
 			(effects
 				(font
@@ -15540,6 +15666,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C15195"
+			(at 181.61 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5914d9c4-2122-4da6-ac8a-5033da84c454")
 		)
@@ -15669,6 +15804,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 69.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49678"
 			(at 69.85 31.75 0)
 			(effects
 				(font
@@ -15944,6 +16088,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C49678"
+			(at 38.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5b3a5d4-547d-46bc-80f1-ed64aa4bd27c")
 		)
@@ -16014,6 +16167,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 138.43 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15000241-642c-4383-ae09-58b81df7075f")
 		)
@@ -16036,7 +16198,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "88c98962-e742-4de0-8cc6-85ec3912b977")
 		(property "Reference" "J2"
@@ -16237,7 +16399,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8b93f02c-f4f5-4ed3-8590-54871998d580")
 		(property "Reference" "J3"
@@ -16826,6 +16988,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C49678"
+			(at 49.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2073c8dc-deab-4ca4-bafc-f9bed702ee87")
 		)
@@ -17041,6 +17212,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be751ad8-1055-4311-b3ec-ae10446f3b4b")
 		)
@@ -17103,6 +17283,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 525.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
 			(at 525.78 48.26 0)
 			(effects
 				(font
@@ -17242,6 +17431,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49678"
 			(at 107.95 31.75 0)
 			(effects
 				(font
@@ -17448,6 +17646,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 299.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C28323"
 			(at 299.72 41.91 0)
 			(effects
 				(font
@@ -18014,6 +18221,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49678"
 			(at 119.38 31.75 0)
 			(effects
 				(font
@@ -18748,6 +18964,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C15195"
+			(at 139.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "566ca25b-687d-4556-a33a-26e7e5152707")
 		)
@@ -18986,6 +19211,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C28323"
+			(at 129.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a04e5f4-d5a4-4b0f-8e16-0bf62e133f1b")
 		)
@@ -19047,6 +19281,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 278.13 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25076"
+			(at 278.13 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19665,6 +19908,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C28323"
+			(at 80.01 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "13576e4a-6d68-4b53-8426-572645d8068c")
 		)
@@ -19726,6 +19978,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 181.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25100"
+			(at 181.61 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19861,6 +20122,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 97.79 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49678"
 			(at 97.79 31.75 0)
 			(effects
 				(font
@@ -20139,6 +20409,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25076"
+			(at 463.55 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b65a524b-3761-4bbc-a963-24dcd28b44ea")
 		)
@@ -20375,7 +20654,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "100K"
 			(at 55.88 279.3999 0)
 			(effects
 				(font
@@ -20403,6 +20682,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 53.34 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" " C25741"
 			(at 53.34 278.13 0)
 			(effects
 				(font
@@ -20704,6 +20992,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25076"
+			(at 276.86 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "829380b5-3f81-4091-9d1b-273a33f0779c")
 		)
@@ -20832,6 +21129,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 511.81 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
 			(at 511.81 48.26 0)
 			(effects
 				(font
@@ -20971,6 +21277,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25100"
+			(at 186.69 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)

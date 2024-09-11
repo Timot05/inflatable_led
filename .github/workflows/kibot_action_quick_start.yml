@@ -1,4 +1,4 @@
-name: "KiBot GitHub action setup for pocketPSU"
+name: "KiBot GitHub action setup for inflatable LED"
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -35,7 +35,7 @@ jobs:
       uses: INTI-CMNB/KiBot@v2_k8
       with:
         # Required - kibot config file
-        config: elec/inflatable_led/pocketPSU.kibot.yaml
+        config: elec/inflatable_led/inflatable_led.kibot.yaml
         schema: elec/inflatable_led/inflatable_led.kicad_sch
         board: elec/inflatable_led/inflatable_led.kicad_pcb
         dir: Generated

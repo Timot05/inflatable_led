@@ -35,9 +35,9 @@ jobs:
       uses: INTI-CMNB/KiBot@v2_k8
       with:
         # Required - kibot config file
-        config: elec/pocketPSU_elec_main/pocketPSU.kibot.yaml
-        schema: elec/pocketPSU_elec_main/pocketPSU_elec_main.kicad_sch
-        board: elec/pocketPSU_elec_main/pocketPSU_elec_main.kicad_pcb
+        config: elec/inflatable_led/pocketPSU.kibot.yaml
+        schema: elec/inflatable_led/inflatable_led.kicad_sch
+        board: elec/inflatable_led/inflatable_led.kicad_pcb
         dir: Generated
 
     # - name: Run KiBot

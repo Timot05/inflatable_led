@@ -140,29 +140,29 @@ outputs:
   #     <<: *bom_options
   #     format: CSV
 
-  - name: pcb_top_g
-    comment: "PCB render top green"
-    type: pcbdraw
-    dir: PCB/green
-    options:
-      format: jpg
-      show_components: all
-      dpi: 600
+  # - name: pcb_top_g
+  #   comment: "PCB render top green"
+  #   type: pcbdraw
+  #   dir: PCB/green
+  #   options:
+  #     format: jpg
+  #     show_components: all
+  #     dpi: 600
 
-  - name: pcb_bot_g
-    comment: "PCB render bottom green"
-    type: pcbdraw
-    dir: PCB/green
-    options:
-      format: jpg
-      bottom: True
-      show_components: all
-      dpi: 600
+  # - name: pcb_bot_g
+  #   comment: "PCB render bottom green"
+  #   type: pcbdraw
+  #   dir: PCB/green
+  #   options:
+  #     format: jpg
+  #     bottom: True
+  #     show_components: all
+  #     dpi: 600
 
-  - name: step
-    comment: "Generate 3D model (STEP)"
-    type: step
-    dir: 3D
-    options:
-      metric_units: true
-      origin: 85,66.2
+  # - name: step
+  #   comment: "Generate 3D model (STEP)"
+  #   type: step
+  #   dir: 3D
+  #   options:
+  #     metric_units: true
+  #     origin: 85,66.2

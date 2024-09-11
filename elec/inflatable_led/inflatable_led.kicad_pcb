@@ -8513,7 +8513,7 @@
 		(path "/8b93f02c-f4f5-4ed3-8590-54871998d580")
 		(sheetname "Root")
 		(sheetfile "inflatable_led.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_pos_files dnp)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 3.87)
@@ -11303,7 +11303,7 @@
 		(path "/88c98962-e742-4de0-8cc6-85ec3912b977")
 		(sheetname "Root")
 		(sheetfile "inflatable_led.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_pos_files dnp)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 3.87)
@@ -11577,7 +11577,7 @@
 		(path "/c97e0dfe-82af-4840-9d45-724d9c56be30")
 		(sheetname "Root")
 		(sheetfile "inflatable_led.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_pos_files dnp)
 		(fp_line
 			(start -25.4 -1.4)
 			(end -25.4 1.27)

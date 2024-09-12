@@ -14283,7 +14283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 447.04 147.32 0)
 			(effects
 				(font
@@ -20742,7 +20742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 433.07 147.32 0)
 			(effects
 				(font
@@ -21208,6 +21208,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 240.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2076855"
 			(at 240.03 130.81 0)
 			(effects
 				(font

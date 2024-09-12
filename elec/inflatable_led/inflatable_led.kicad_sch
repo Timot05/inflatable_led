@@ -10098,25 +10098,6 @@
 		)
 		(uuid f880a963-3237-419b-bae8-6c8facc36134)
 	)
-	(text_box "TODOs:\n[x] Add buttons\n[x] Add debug pins\n[X] Add USB\n[X] ADD LDO\n[x] ON/OFF capability for LEDs\n[] 3.3V led might be facing the wrong way"
-		(exclude_from_sim no)
-		(at 344.17 241.3 0)
-		(size 149.86 90.17)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "673da097-cf6e-49f5-8b42-9d151874e7be")
-	)
 	(text "LED ARE ONLY BEING POWERED FROM BATTERY, NOT USB"
 		(exclude_from_sim no)
 		(at 294.894 200.914 0)

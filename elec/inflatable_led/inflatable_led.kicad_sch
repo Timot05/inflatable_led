@@ -11707,7 +11707,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" "C1525"
 			(at 27.94 31.75 0)
 			(effects
 				(font
@@ -12777,7 +12777,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" "C1525"
 			(at 59.69 31.75 0)
 			(effects
 				(font
@@ -14310,7 +14310,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" "C1525"
 			(at 447.04 147.32 0)
 			(effects
 				(font
@@ -15212,7 +15212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 241.3 63.5 0)
 			(effects
 				(font
@@ -15357,7 +15357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 228.6 48.26 0)
 			(effects
 				(font
@@ -15812,7 +15812,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" "C1525"
 			(at 69.85 31.75 0)
 			(effects
 				(font
@@ -16088,7 +16088,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" "C1525"
 			(at 38.1 31.75 0)
 			(effects
 				(font
@@ -16988,7 +16988,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" "C1525"
 			(at 49.53 31.75 0)
 			(effects
 				(font
@@ -17439,7 +17439,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" "C1525"
 			(at 107.95 31.75 0)
 			(effects
 				(font
@@ -18229,7 +18229,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" "C1525"
 			(at 119.38 31.75 0)
 			(effects
 				(font
@@ -20130,7 +20130,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" "C1525"
 			(at 97.79 31.75 0)
 			(effects
 				(font
@@ -20769,7 +20769,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" "C1525"
 			(at 433.07 147.32 0)
 			(effects
 				(font

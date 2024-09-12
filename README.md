@@ -15,3 +15,10 @@
 - LED: OSRAM GW JTLPS1.EM-KKLL-XX58-1
 - Batteries: TBD
 - Battery charger: TBD
+
+## TODOs for V1 order:
+
+- Check order of LEDs
+- Check the caps footprint
+- C15, C16 are wrong size
+- Remove todo from schematic

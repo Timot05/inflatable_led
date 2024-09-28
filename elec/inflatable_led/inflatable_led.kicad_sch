@@ -9932,6 +9932,16 @@
 		)
 		(uuid f880a963-3237-419b-bae8-6c8facc36134)
 	)
+	(text "TODO: actually can't switch this"
+		(exclude_from_sim no)
+		(at 267.462 230.378 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f8a50f6-382a-458c-b68a-3f5ae8bbe68f")
+	)
 	(text "LED ARE ONLY BEING POWERED FROM BATTERY, NOT USB"
 		(exclude_from_sim no)
 		(at 294.894 200.914 0)
@@ -20097,7 +20107,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e576d6fd-b03b-4158-93c9-c30763b55c6f")
 		(property "Reference" "R12"

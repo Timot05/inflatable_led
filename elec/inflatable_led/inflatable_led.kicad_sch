@@ -6279,12 +6279,6 @@
 		(uuid "6dcdae14-2db5-4d17-a297-722aabaed9e0")
 	)
 	(junction
-		(at 181.61 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ee6a83c-ff4e-4690-9e1d-7665c868dbd9")
-	)
-	(junction
 		(at 157.48 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6651,16 +6645,6 @@
 			(type default)
 		)
 		(uuid "04024e3c-9594-4aca-9e6f-63ace0be8fe8")
-	)
-	(wire
-		(pts
-			(xy 181.61 193.04) (xy 181.61 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04f303ca-292a-4698-b103-c454623835e5")
 	)
 	(wire
 		(pts
@@ -7594,7 +7578,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 179.07) (xy 181.61 179.07)
+			(xy 176.53 179.07) (xy 185.42 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7701,16 +7685,6 @@
 			(type default)
 		)
 		(uuid "5c177776-bdc9-4073-8c38-e53284a25a1b")
-	)
-	(wire
-		(pts
-			(xy 181.61 179.07) (xy 185.42 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c410c9f-0add-42bf-b16b-6d4374fec18b")
 	)
 	(wire
 		(pts
@@ -8794,16 +8768,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 200.66) (xy 172.72 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8c81af4-d5d2-491c-9a39-2522ebf9ec2e")
-	)
-	(wire
-		(pts
 			(xy 80.01 115.57) (xy 72.39 115.57)
 		)
 		(stroke
@@ -9141,16 +9105,6 @@
 			(type default)
 		)
 		(uuid "c60783f6-a87f-402b-bc93-14e2902fc7b1")
-	)
-	(wire
-		(pts
-			(xy 181.61 179.07) (xy 181.61 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c61af455-3ad3-4d09-ad0b-a6afce318e6b")
 	)
 	(wire
 		(pts
@@ -15533,85 +15487,6 @@
 			(project "inflatable_led"
 				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 181.61 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74140567-8d14-4380-9149-b3f9ab25d92b")
-		(property "Reference" "C14"
-			(at 184.15 189.2362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 184.15 191.7762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 181.61 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 181.61 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C15195"
-			(at 181.61 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5914d9c4-2122-4da6-ac8a-5033da84c454")
-		)
-		(pin "1"
-			(uuid "15ad03e4-1f3c-45f9-9667-1a8b9f4b46a1")
-		)
-		(instances
-			(project "inflatable_led"
-				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
-					(reference "C14")
 					(unit 1)
 				)
 			)

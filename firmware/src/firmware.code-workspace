@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Dev/keinefabrik/inflatable_led/firmware"
+		},
+		{
+			"name": "inflatable-led",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

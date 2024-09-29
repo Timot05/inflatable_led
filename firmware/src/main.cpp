@@ -18,7 +18,7 @@ const unsigned long shortPressDuration = 500;
 
 StateMachine state_machine;
 
-unsigned int brightness = 0;
+unsigned int brightness = 10;
 
 uint slice_num;
 
@@ -97,7 +97,7 @@ void loop() {
 
         brightness += 1;
         if (brightness > 255) {
-            brightness = 0;
+            brightness = 10;
         }
         unsigned int value = map(brightness, 0, 255, 0, 12499);
         pwm_set_chan_level(slice_num, PWM_CHAN_A, value);

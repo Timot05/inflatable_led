@@ -15370,6 +15370,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C435392"
+			(at 299.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d4d66c53-cb0d-4f8c-9bff-40152ce38f7b")
 		)
@@ -15581,6 +15590,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C77012"
+			(at 288.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "57c7ed85-d3c3-4267-959f-407726c9ffc8")
 		)
@@ -15603,7 +15621,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0d56ccf6-6c09-4754-9b76-60e0de8e24e1")
 		(property "Reference" "H2"
@@ -15786,6 +15804,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 370.84 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5220764"
 			(at 370.84 41.91 0)
 			(effects
 				(font
@@ -16137,7 +16164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 410.21 219.71 0)
 			(effects
 				(font
@@ -16165,6 +16192,15 @@
 			)
 		)
 		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 410.21 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25744"
 			(at 410.21 219.71 0)
 			(effects
 				(font
@@ -16705,7 +16741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 367.03 231.14 0)
 			(effects
 				(font
@@ -16733,6 +16769,15 @@
 			)
 		)
 		(property "Digikey" "311-1444-1-ND"
+			(at 367.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C28323"
 			(at 367.03 231.14 0)
 			(effects
 				(font
@@ -16827,9 +16872,9 @@
 		(at 200.66 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1c924744-c83a-4a41-a8a9-38aeb44a5708")
 		(property "Reference" "J1"
@@ -18730,7 +18775,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3b89aa5f-eb22-46a1-90a6-e0e80431bb2d")
 		(property "Reference" "J4"
@@ -19154,6 +19199,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 370.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5220764"
 			(at 370.84 82.55 0)
 			(effects
 				(font
@@ -19787,6 +19841,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5220764"
+			(at 370.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad933198-7217-445b-aa42-3e52f7051a6f")
 		)
@@ -20292,7 +20355,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C15850"
 			(at 316.23 138.43 0)
 			(effects
 				(font
@@ -20629,6 +20692,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 370.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5220764"
 			(at 370.84 62.23 0)
 			(effects
 				(font
@@ -22344,7 +22416,7 @@
 		(at 349.25 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -22617,7 +22689,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8c879d29-9a82-4f95-b904-23dfe6305bfd")
 		(property "Reference" "H1"
@@ -23796,6 +23868,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5220764"
+			(at 370.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "391c0a89-95eb-4640-9d52-b8453b21da7c")
 		)
@@ -24135,7 +24216,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 356.87 232.4162 0)
 			(effects
 				(font
@@ -24144,7 +24225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 354.33 231.14 0)
 			(effects
 				(font
@@ -24172,6 +24253,15 @@
 			)
 		)
 		(property "Digikey" "311-1776-1-ND"
+			(at 354.33 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 354.33 231.14 0)
 			(effects
 				(font
@@ -24462,7 +24552,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C15850"
 			(at 306.07 138.43 0)
 			(effects
 				(font
@@ -25085,7 +25175,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b89b4235-d4f5-41ef-9b5f-18dc51f86e83")
 		(property "Reference" "H3"
@@ -25897,7 +25987,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cab77517-6809-4d25-afa0-9b838c8ce04d")
 		(property "Reference" "H4"
@@ -26481,7 +26571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 407.67 231.14 0)
 			(effects
 				(font
@@ -26509,6 +26599,15 @@
 			)
 		)
 		(property "Digikey" "311-1444-1-ND"
+			(at 407.67 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C28323"
 			(at 407.67 231.14 0)
 			(effects
 				(font

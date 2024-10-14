@@ -25,15 +25,18 @@
 
 ## TODOs for v2:
 
-- [ ] Add charging status to micro
-- [ ] fix the led circuit switching
-- [ ] enable low power mode with reset switch (no long press. How did we switch all circuits on mopi?)
+- [x] Add charging status to micro
+- [x] fix the led circuit switching
+- [x] enable low power mode with reset switch (no long press. How did we switch all circuits on mopi?)
 - [x] Remove the cap on qspi_ss
 - [x] DNP for the 3.3V led
-- [ ] Add a buck boost instead of ldo
-- [ ] Check the bat sense feature
-- [ ] White circuit for reflection
+- [x] Add a buck boost instead of ldo -> Remain with LDO but remove shotky diode (need to add it in case?)
+- [x] Check the bat sense feature - probs ok
+- [x] White circuit for reflection - will do
 - [ ] Add gnd, vref, 3.3V to the debug port
+- [x] Add the 10k resistor to the TS pin on the charger -> changed charger and fixed TS
+- [x] Switch to ULDO
+- [x] Change the battery holder -> changed to double battery holder
 
 Nice to have:
 

@@ -3292,6 +3292,177 @@
 				)
 			)
 		)
+		(symbol "local:74LVC1G32SE-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G32SE-7"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:SOT-353_L2.0-W1.2-P0.65-LS2.1-BL"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/presales_Diodes-Incorporated-74LVC1G32SE-7_C460530.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C460530"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1G32SE-7_0_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "local:BH-18650-B1BA007"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8583,6 +8754,12 @@
 		(uuid "28466ed4-af54-45c4-b486-a571590c6014")
 	)
 	(junction
+		(at 469.9 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b3d1f3c-33da-477b-9d2d-b4948449a484")
+	)
+	(junction
 		(at 283.21 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8785,6 +8962,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8aa441be-69ac-4e89-9d38-02675cdfd8a7")
+	)
+	(junction
+		(at 429.26 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bbe3b0c-c476-4caf-935d-0865309b2f1a")
 	)
 	(junction
 		(at 39.37 41.91)
@@ -9386,7 +9569,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 267.97) (xy 407.67 267.97)
+			(xy 419.1 243.84) (xy 427.99 243.84)
 		)
 		(stroke
 			(width 0)
@@ -9806,6 +9989,26 @@
 	)
 	(wire
 		(pts
+			(xy 425.45 219.71) (xy 429.26 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28fcdb84-60c9-43ec-9baa-a7d11bbe68f8")
+	)
+	(wire
+		(pts
+			(xy 436.88 217.17) (xy 445.77 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29095dc0-7a6d-4979-b784-143d41e55a5d")
+	)
+	(wire
+		(pts
 			(xy 518.16 115.57) (xy 518.16 116.84)
 		)
 		(stroke
@@ -10086,6 +10289,16 @@
 	)
 	(wire
 		(pts
+			(xy 445.77 222.25) (xy 443.23 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38dba39f-1ea4-4b8a-8022-e57690d2f4c4")
+	)
+	(wire
+		(pts
 			(xy 355.6 271.78) (xy 368.3 271.78)
 		)
 		(stroke
@@ -10113,6 +10326,16 @@
 			(type default)
 		)
 		(uuid "39cdf146-c1ee-4b1b-aa80-fc1462a9b0d3")
+	)
+	(wire
+		(pts
+			(xy 463.55 217.17) (xy 467.36 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3adc2128-1169-4396-85d4-220815c99822")
 	)
 	(wire
 		(pts
@@ -10246,7 +10469,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 273.05) (xy 407.67 273.05)
+			(xy 419.1 248.92) (xy 427.99 248.92)
 		)
 		(stroke
 			(width 0)
@@ -10756,7 +10979,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 278.13) (xy 407.67 278.13)
+			(xy 419.1 254) (xy 427.99 254)
 		)
 		(stroke
 			(width 0)
@@ -10773,6 +10996,16 @@
 			(type default)
 		)
 		(uuid "588be29d-86cc-43a0-a7aa-e099a51db272")
+	)
+	(wire
+		(pts
+			(xy 463.55 222.25) (xy 469.9 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f22b43-edb5-4728-8a29-bc73232c7055")
 	)
 	(wire
 		(pts
@@ -11323,6 +11556,16 @@
 			(type default)
 		)
 		(uuid "6f773470-a087-49e1-9917-79a937dd187b")
+	)
+	(wire
+		(pts
+			(xy 443.23 222.25) (xy 443.23 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7927f7-a8c2-4936-8e93-234e9faf35c5")
 	)
 	(wire
 		(pts
@@ -12196,6 +12439,16 @@
 	)
 	(wire
 		(pts
+			(xy 469.9 222.25) (xy 471.17 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24e6d5f-4012-4f18-94d1-ada1fc7bbf21")
+	)
+	(wire
+		(pts
 			(xy 401.32 232.41) (xy 401.32 229.87)
 		)
 		(stroke
@@ -12716,6 +12969,16 @@
 	)
 	(wire
 		(pts
+			(xy 467.36 217.17) (xy 467.36 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c267381a-2c1a-4e2b-bdb8-aae973b5c71b")
+	)
+	(wire
+		(pts
 			(xy 256.54 232.41) (xy 266.7 232.41)
 		)
 		(stroke
@@ -13046,7 +13309,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 283.21) (xy 407.67 283.21)
+			(xy 419.1 259.08) (xy 427.99 259.08)
 		)
 		(stroke
 			(width 0)
@@ -13546,6 +13809,16 @@
 	)
 	(wire
 		(pts
+			(xy 429.26 219.71) (xy 445.77 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edda513a-bc01-4211-9db2-df1fd8b1bfb4")
+	)
+	(wire
+		(pts
 			(xy 481.33 69.85) (xy 480.06 69.85)
 		)
 		(stroke
@@ -13876,7 +14149,7 @@
 	)
 	(rectangle
 		(start 337.82 176.53)
-		(end 426.72 289.56)
+		(end 492.76 281.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -13957,6 +14230,16 @@
 			(type none)
 		)
 		(uuid f880a963-3237-419b-bae8-6c8facc36134)
+	)
+	(text "OR gate. Turns on with: \nbutton press OR USB plug\n"
+		(exclude_from_sim no)
+		(at 455.168 227.33 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "0defc640-b727-48fd-bff7-260fe42bfa5e")
 	)
 	(text "VCC must be min. 3.5V for EN to go high. Also\na 32ms drop below 3.3V will make EN go low.\nVCCLO goes low anytime VCC falls below 3.5V.\n\n\n\nPower must be confirmed within 1.4s\nafter the button has been pressed."
 		(exclude_from_sim no)
@@ -14229,7 +14512,7 @@
 		(uuid "117089a3-386d-4739-9888-296f8f2096c6")
 	)
 	(label "PWR_EN"
-		(at 398.78 267.97 0)
+		(at 419.1 243.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14657,6 +14940,17 @@
 		)
 		(uuid "7dc6b4ba-05ff-4fcd-a096-4a7baa216d95")
 	)
+	(label "PWR_EN"
+		(at 436.88 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "803efbab-e299-4097-bf02-c3958ae63621")
+	)
 	(label "GPIO9"
 		(at 186.69 170.18 0)
 		(fields_autoplaced yes)
@@ -14691,7 +14985,7 @@
 		(uuid "85daf140-2f68-480d-9392-ef6b5fe69dd4")
 	)
 	(label "PWR_INT"
-		(at 398.78 283.21 0)
+		(at 419.1 259.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14867,7 +15161,7 @@
 		(uuid "b0355a80-7295-45a0-992a-bcea9499e502")
 	)
 	(label "PWR_HOLD"
-		(at 398.78 273.05 0)
+		(at 419.1 248.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14900,7 +15194,7 @@
 		(uuid "b200e02e-fdcb-4bdb-a8d2-daa4909979dc")
 	)
 	(label "PWR_RESET"
-		(at 398.78 278.13 0)
+		(at 419.1 254 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14986,17 +15280,6 @@
 			(justify left bottom)
 		)
 		(uuid "cfd84d1f-a5ff-489b-9a7b-f3db13e8a257")
-	)
-	(label "PWR_EN"
-		(at 186.69 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cff54ae4-f056-437c-814a-b191b1e5744e")
 	)
 	(label "QSPI_SD0"
 		(at 85.09 80.01 0)
@@ -15174,6 +15457,17 @@
 		)
 		(uuid "e8d0633d-f6ee-4074-9fd7-6d26c1b9b3d8")
 	)
+	(label "LDO_EN"
+		(at 186.69 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb376e67-67a1-4b39-bf77-fe9de7d44eae")
+	)
 	(label "USB_DM"
 		(at 172.72 67.31 0)
 		(fields_autoplaced yes)
@@ -15185,7 +15479,7 @@
 		)
 		(uuid "ecb9017b-cb3a-4988-8593-4a82f067588a")
 	)
-	(label "PWR_EN"
+	(label "LDO_EN"
 		(at 378.46 121.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15206,6 +15500,17 @@
 			(justify left bottom)
 		)
 		(uuid "f3df4fce-0471-4bf2-a8a0-1fec772cad9b")
+	)
+	(label "LDO_EN"
+		(at 471.17 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f96d547c-2f73-4e3f-a0e5-5107f0256fae")
 	)
 	(label "USB_CC2"
 		(at 525.78 110.49 180)
@@ -16391,6 +16696,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "NMOS"
+			(at 274.32 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 274.32 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 274.32 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "de8c9c2f-d52f-40df-86e0-7ffa73f09192")
 		)
@@ -16536,6 +16868,73 @@
 			(project "inflatable_led"
 				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 469.9 222.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1386970d-8866-47fb-a68e-1768dcef9c17")
+		(property "Reference" "TP10"
+			(at 472.44 224.2819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 472.44 226.8219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 464.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 464.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 469.9 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2452e52c-04e3-4e0c-802e-cfd3d16e3ae1")
+		)
+		(instances
+			(project "inflatable_led"
+				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -19661,6 +20060,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "R"
+			(at 261.62 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 261.62 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c256b416-030d-4268-87cc-dcea06b161a8")
 		)
@@ -19745,7 +20162,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 407.67 283.21 270)
+		(at 427.99 259.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -19754,7 +20171,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c9acfa9-8c2c-4322-b60a-8f49242d6f04")
 		(property "Reference" "TP8"
-			(at 412.75 281.9399 90)
+			(at 433.07 257.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19763,7 +20180,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 412.75 284.4799 90)
+			(at 433.07 260.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19772,7 +20189,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 407.67 288.29 0)
+			(at 427.99 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19781,7 +20198,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 407.67 288.29 0)
+			(at 427.99 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19790,7 +20207,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 407.67 283.21 0)
+			(at 427.99 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19884,6 +20301,72 @@
 			(project "inflatable_led"
 				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 467.36 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f17bf52-50b7-4c3a-8e4d-7791b9f75c7a")
+		(property "Reference" "#PWR072"
+			(at 467.36 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 467.36 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 467.36 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 467.36 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 467.36 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c52b822a-f423-47dc-a9ff-838f96d5fa74")
+		)
+		(instances
+			(project "inflatable_led"
+				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -20470,6 +20953,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 261.62 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d849d4e-3097-499a-82ac-0881446b69c4")
+		(property "Reference" "R18"
+			(at 264.16 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 264.16 248.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 261.62 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 261.62 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 261.62 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eeba44c4-2fc6-45a0-9b82-d3a5b55708f5")
+		)
+		(pin "1"
+			(uuid "535ec9db-f091-45fe-b581-0ee3dee340ef")
+		)
+		(instances
+			(project "inflatable_led"
+				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 478.79 96.52 90)
 		(unit 1)
@@ -20810,85 +21372,6 @@
 			(project "inflatable_led"
 				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 261.62 247.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "645e54b2-156f-4ecc-be4e-1ce4c9409471")
-		(property "Reference" "R18"
-			(at 264.16 246.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 264.16 248.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 261.62 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 261.62 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 261.62 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4104f6ca-38ac-485f-b992-943dca7b7f32")
-		)
-		(pin "2"
-			(uuid "fab18d5f-af95-40a3-a1e5-61c54ba304b2")
-		)
-		(instances
-			(project "inflatable_led"
-				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -21735,7 +22218,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 407.67 273.05 270)
+		(at 427.99 248.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -21744,7 +22227,7 @@
 		(fields_autoplaced yes)
 		(uuid "73691c0e-4560-4d68-9683-150974ea81fa")
 		(property "Reference" "TP2"
-			(at 412.75 271.7799 90)
+			(at 433.07 247.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21753,7 +22236,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 412.75 274.3199 90)
+			(at 433.07 250.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21762,7 +22245,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 407.67 278.13 0)
+			(at 427.99 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21771,7 +22254,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 407.67 278.13 0)
+			(at 427.99 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21780,7 +22263,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 407.67 273.05 0)
+			(at 427.99 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21795,6 +22278,92 @@
 			(project "inflatable_led"
 				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "local:74LVC1G32SE-7")
+		(at 454.66 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a60b9ed-c73d-4346-9759-dc5f8f51cce7")
+		(property "Reference" "U9"
+			(at 454.66 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G32SE-7"
+			(at 454.66 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-353_L2.0-W1.2-P0.65-LS2.1-BL"
+			(at 454.66 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/presales_Diodes-Incorporated-74LVC1G32SE-7_C460530.html"
+			(at 454.66 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 454.66 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C460530"
+			(at 454.66 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39439e68-d463-428b-8d8c-9400800ede00")
+		)
+		(pin "1"
+			(uuid "264b62f0-1a21-4880-82d4-c9e4abdb4a3d")
+		)
+		(pin "4"
+			(uuid "eaf14fd3-b97a-47e6-b7c5-a90a178347a9")
+		)
+		(pin "3"
+			(uuid "ffba3ede-22c8-4322-aa86-efb1e6d8c7be")
+		)
+		(pin "5"
+			(uuid "950f8510-6001-421a-acf8-3ea04fa58847")
+		)
+		(instances
+			(project ""
+				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -22145,7 +22714,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 407.67 267.97 270)
+		(at 427.99 243.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -22154,7 +22723,7 @@
 		(fields_autoplaced yes)
 		(uuid "8053cda8-0539-4d68-8160-bd88ace7fd59")
 		(property "Reference" "TP1"
-			(at 412.75 266.6999 90)
+			(at 433.07 242.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22163,7 +22732,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 412.75 269.2399 90)
+			(at 433.07 245.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22172,7 +22741,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 407.67 273.05 0)
+			(at 427.99 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22181,7 +22750,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 407.67 273.05 0)
+			(at 427.99 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22190,7 +22759,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 407.67 267.97 0)
+			(at 427.99 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23579,7 +24148,7 @@
 		(lib_id "sternenbauer:SRC0")
 		(at 378.46 218.44 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -24226,7 +24795,7 @@
 		(lib_id "Device:C_Small")
 		(at 347.98 227.33 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -25384,6 +25953,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "PMOS"
+			(at 274.32 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 274.32 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 274.32 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aae6d243-7d29-4d80-86fc-268b67579762")
 		)
@@ -25397,6 +25993,73 @@
 			(project "inflatable_led"
 				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 429.26 219.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb0c11e3-9a24-49b2-808e-352b629c516c")
+		(property "Reference" "TP9"
+			(at 431.8 221.7419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 431.8 224.2819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 424.18 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 424.18 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 429.26 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e70c911-d374-4fe8-9f49-eccd18492ef7")
+		)
+		(instances
+			(project "inflatable_led"
+				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -25714,7 +26377,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100"
 			(at 256.54 254 90)
 			(effects
 				(font
@@ -25751,6 +26414,24 @@
 		)
 		(property "LCSC Part" "C25076"
 			(at 256.54 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 256.54 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 256.54 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26736,7 +27417,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 407.67 278.13 270)
+		(at 427.99 254 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -26745,7 +27426,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd928b8f-ce60-45f5-bb8e-e3ae7f69c1dc")
 		(property "Reference" "TP7"
-			(at 412.75 276.8599 90)
+			(at 433.07 252.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26754,7 +27435,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 412.75 279.3999 90)
+			(at 433.07 255.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26763,7 +27444,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 407.67 283.21 0)
+			(at 427.99 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26772,7 +27453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 407.67 283.21 0)
+			(at 427.99 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26781,7 +27462,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 407.67 278.13 0)
+			(at 427.99 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27657,6 +28338,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 443.23 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f46a0d9a-2bec-47cf-85a4-bb72ecfb2027")
+		(property "Reference" "#PWR073"
+			(at 443.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 443.23 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 443.23 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 443.23 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 443.23 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b97c19e2-31fd-46ee-86b2-55085e6f81e9")
+		)
+		(instances
+			(project "inflatable_led"
+				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 347.98 121.92 0)
 		(unit 1)
@@ -28168,6 +28915,73 @@
 			(project "inflatable_led"
 				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 425.45 219.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffec102d-709f-4637-9d22-33a8aefacbd4")
+		(property "Reference" "#PWR074"
+			(at 429.26 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 422.2695 219.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 425.45 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 425.45 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 425.45 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17326691-c9d9-46b5-b7dc-5c5030db8200")
+		)
+		(instances
+			(project "inflatable_led"
+				(path "/28d8f95b-9544-4a45-87c6-73291c5b1588"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)

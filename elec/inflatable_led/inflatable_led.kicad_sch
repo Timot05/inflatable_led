@@ -27808,7 +27808,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f8700675-8798-4ca6-9b67-a3c258815f81")
 		(property "Reference" "CN1"

@@ -50,6 +50,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -58,6 +59,7 @@
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
+				(color "FR4 natural")
 				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -91,6 +93,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -4724,7 +4727,7 @@
 		(path "/f8700675-8798-4ca6-9b67-a3c258815f81")
 		(sheetname "Root")
 		(sheetfile "inflatable_led.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 2.400001 4.38)
 			(end -2.4 4.379999)
@@ -22786,6 +22789,7 @@
 			(at 0 0.5 -60)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "4a109c4e-06a9-493f-b310-2656317ae3bb")
 			(effects
 				(font
@@ -22935,6 +22939,7 @@
 			(at 0 0.5 60)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "96a5e2cf-f22c-4693-b42e-fdf879b0f539")
 			(effects
 				(font
@@ -23070,6 +23075,7 @@
 			(at 0 0.5 120)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "54ee530a-5bdf-441e-8c29-f3300444477a")
 			(effects
 				(font
@@ -23205,6 +23211,7 @@
 			(at 0 0.5 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "c66019eb-8b6f-4ce6-8334-97229c992ad7")
 			(effects
 				(font
@@ -23340,6 +23347,7 @@
 			(at 0 0.5 -120)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "39e9e364-3b58-4f33-a262-1817c5dcc3a7")
 			(effects
 				(font
@@ -23475,6 +23483,7 @@
 			(at 0 0.5 180)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f44ecd2f-d403-4a70-86a2-dcc7939cf3d7")
 			(effects
 				(font

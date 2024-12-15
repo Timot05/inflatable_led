@@ -5,9 +5,12 @@
 class StateMachine {
 public:
     StateMachine();
-    void update();
     void shortPress();
     void longPress();
+    void charging();
+    void charged();
+    void not_plugged();
+    void error();
     State getState() const { return currentState; }
 
 private:

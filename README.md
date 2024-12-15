@@ -43,3 +43,10 @@ Nice to have:
 - i2c connected charger
 - Protrude the button more
 - Nice feeling button
+
+
+## TODOs for V3
+
+- [ ] add a label for +/- battery
+- [ ] remove the pullup on the on/off bt
+- [ ] add a blinky led 

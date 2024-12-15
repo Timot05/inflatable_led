@@ -1,3 +1,11 @@
-#define LED_ON_PIN 3
-#define LED_DIM_CTRL_PIN 4
-#define ON_OFF_BT_PIN 5
+#define LED_DIM_CTRL_PIN 0
+#define LED_ON_PIN 1
+#define CHG_QON_PIN 2
+#define CHG_INT_PIN 3
+#define CHG_SDA_PIN 4
+#define CHG_SCL_PIN 5
+#define CHG_STAT_PIN 6
+#define CHG_PG_PIN 7
+#define RST_PIN 11
+#define PWR_HOLD 14
+#define BTN_1_PIN 16
